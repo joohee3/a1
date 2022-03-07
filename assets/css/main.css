@@ -1849,11 +1849,11 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.7em;
 		/*font-size:0.7em*/
 		font-weight: bold;
 		height: calc(4.75em );
-		letter-spacing: 0.15em;
+		letter-spacing: 0.12em;
 		line-height: 4.75em;
 		outline: 0;
 		padding: 0 1.5em;
@@ -3753,7 +3753,11 @@ input, select, textarea {
 		background-size: 100% 100%;
 		*/
 		position: relative;
+		background-image: url(../../images/shadow12.png);
+		background-repeat: no-repeat;
+		background-position: top 0 right 1%;
 	}
+	
 
 	.profil_img{
 		position: absolute;
@@ -3771,10 +3775,21 @@ input, select, textarea {
 		text-transform: uppercase;
 		letter-spacing: 0.5em;
 		font-size: 0.7em;
-		color:#555;
+		color:#999;
 	}
 
 	@media screen and (max-width: 736px){
+
+
+		#intro {
+			background-attachment: fixed;
+
+			position: relative;
+			background-image: url(../../images/shadow13.png);
+			background-repeat: no-repeat;
+			background-position: top 0 right 1%;
+		}
+		
 
 		#intro h6{
 			text-transform: uppercase;
@@ -3873,10 +3888,10 @@ list-style: none;
 	font-family:'RIDIBatang';
 	font-size:90%;
 	margin: 0.5em 0;
-	color:#222;
+	color:#333;
 }
 .history li{
-	margin: 2em 0 3em;
+	margin: 1em 0 3em;
 
 }
 .contact{
@@ -3888,8 +3903,17 @@ list-style: none;
 	background-position: top left;
 }
 .contact li{
-	color:#222;
+	color:#444;
 }
+
+.contact h4{
+	font-family: 'RIDIBatang';
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	padding:15px 0;
+}
+
+
 
 
 
