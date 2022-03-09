@@ -3755,7 +3755,7 @@ input, select, textarea {
 		position: relative;
 		background-image: url(../../images/20.png);
 		background-repeat: no-repeat;
-		background-position: top 0 right 1%;
+		background-position: top 0 right -10%;
 	}
 	
 
