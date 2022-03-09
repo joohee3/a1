@@ -1845,7 +1845,8 @@ input, select, textarea {
 		background-color: transparent;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.9) !important;
-		border-radius: 3em;
+		border-radius: 2.8em;
+		/*	border-radius: 3em;*/
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1853,7 +1854,8 @@ input, select, textarea {
 		/*font-size:0.7em*/
 		font-weight: bold;
 		height: calc(4.75em );
-		letter-spacing: 0.12em;
+		letter-spacing: 0.1em;
+		/*		letter-spacing: 0.15em;*/
 		line-height: 4.75em;
 		outline: 0;
 		padding: 0 1.5em;
@@ -1866,6 +1868,8 @@ input, select, textarea {
 		
 	
 	}
+
+
 
 		input[type="submit"]:after,
 		input[type="reset"]:after,
@@ -2536,6 +2540,8 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		/*flex wrap은 내가 추가*/
+		flex-wrap: wrap;
 	}
 
 		ul.actions li {
@@ -2899,7 +2905,8 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 4em 5em 2em 5em ;
+			padding: 3.8em 1em 2em 5em ;
+			/*			padding: 4em 5em 2em 5em ;*/
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2958,7 +2965,10 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				padding: 4em 4em 2em 4em ;
+				padding: 3.8em 1em 2em 4em ;
+				/*
+								padding: 4em 4em 2em 4em ;
+				*/
 			}
 
 		}
@@ -3076,7 +3086,10 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
+			padding: 5.5em 5em 3em 6.5em ;
+			/*
 			padding: 5em 5em 3em 5em ;
+			*/
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3084,7 +3097,8 @@ input, select, textarea {
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 5em 4em 2em 4.5em ;
+					/*					padding: 4em 4em 2em 4em ;*/
 				}
 
 			}
@@ -3100,7 +3114,8 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 3em 2em 1em 2em ;
+					padding: 3em 2em 1em 3em ;
+					/*					padding: 3em 2em 1em 2em ;*/
 				}
 
 			}
@@ -3121,7 +3136,7 @@ input, select, textarea {
 			background-color: #aeabc5;
 		}
 			/*브랜딩 
-			 #BEE5BF,#67697C,6b6770, accfbd */
+			 #BEE5BF,#67697C,6b6770, accfbd aeabc e0cac3(기존) f3e3df*/
 
 		.wrapper.style2-alt {
 			background-color: #e0cac3;
@@ -3755,7 +3770,7 @@ input, select, textarea {
 		position: relative;
 		background-image: url(../../images/20.png);
 		background-repeat: no-repeat;
-		background-position: top 0 right 20%;
+		background-position: top 0 right 0;
 	}
 	
 
@@ -3954,5 +3969,11 @@ background: linear-gradient(to right,  #904b5d 0%,#904b5d 45%,#ffffff 55%,#fffff
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#904b5d', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 width:100%;
 height:5px
+}
+
+
+ul.actions li{
+	padding: 0 0 0.6em 0.8em
+	/*padding: 0 0 0 1em;*/
 }
 
