@@ -3125,7 +3125,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #f3e3df;
+			background-color: #dbccc1;
 		}
 
 		.wrapper.style1-alt {
@@ -3136,14 +3136,14 @@ input, select, textarea {
 			background-color: #aeabc5;
 		}
 			/*브랜딩 
-			 #BEE5BF,#67697C,6b6770, accfbd aeabc e0cac3(기존) f3e3df*/
+			 #BEE5BF,#67697C,6b6770, accfbd aeabc e0cac3(기존) f3e3df    dbccc1*/
 
 		.wrapper.style2-alt {
 			background-color: #e0cac3;
 		}
 
 		.wrapper.style3 {
-			background-color: #f3e3df;
+			background-color: #dbccc1;
 		}
 
 		.wrapper.style3-alt {
