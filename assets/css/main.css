@@ -2941,11 +2941,11 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0);
+			background-color: rgba(0, 0, 0, 0.1);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0.15);
 		}
 
 		.spotlights > section.inactive > .image:before,
