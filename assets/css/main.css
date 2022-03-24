@@ -1997,6 +1997,8 @@ input, select, textarea {
 
 /* Features */
 
+
+
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2016,12 +2018,16 @@ input, select, textarea {
 		*/
 	}
 
+
+	/*스킬 개수 조정*/
+
+	
 		.features section {
 			padding: 2em;
 			/*
 			padding: 3.5em 3em 1em 7em ;
 			*/
-			width: 20%;
+			width: 25%;
 			/*
 			width:50%
 			*/
@@ -2940,12 +2946,14 @@ input, select, textarea {
 				opacity: 1;
 			}
 
+
+			/*포트폴리오 브랜드 항목별 색감조절*/
 		.spotlights > section:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.2);
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3006,7 +3014,7 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .content {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 2em 3em 2em ;
 			}
 
 		}
@@ -3125,7 +3133,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #e8d2cb;
+			background-color: #E8D5CC;
 		}
 
 		.wrapper.style1-alt {
@@ -3138,15 +3146,15 @@ input, select, textarea {
 			/*브랜딩(보라색) 
 			 #BEE5BF,#67697C,6b6770, accfbd aeabc5
 			 
-			 배경(베이지색)
-			 e0cac3 f3e3df*/
+			 배경색(베이지색)
+			 e0cac3 f3e3df #e8d2cb #E8D5CC*/
 
 		.wrapper.style2-alt {
 			background-color: #e0cac3;
 		}
 
 		.wrapper.style3 {
-			background-color: #e8d2cb;
+			background-color: #E8D5CC;
 		}
 
 		.wrapper.style3-alt {
@@ -3769,9 +3777,13 @@ input, select, textarea {
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
+
+
+
+  	background-image: url(../../images/shadow17.png);
 		*/
 		position: relative;
-		background-image: ;
+		background-image: url();
 		background-repeat: no-repeat;
 		background-position: top 0 right 0;
 	}
@@ -3905,9 +3917,14 @@ list-style: none;
 	margin: 0.5em 0;
 	color:#333;
 }
+
+.history{
+	margin:0;
+	padding:0;
+}
 .history li{
 	margin: 1em 0 3em;
-
+	padding:0;
 }
 .contact{
 	margin-top:400px;
