@@ -3997,3 +3997,12 @@ ul.actions li{
 	/*padding: 0 0 0 1em;*/
 }
 
+.content p{
+	font-size:120%;
+	font-weight:;
+
+}
+
+.content h3{
+	color:#555;
+}
